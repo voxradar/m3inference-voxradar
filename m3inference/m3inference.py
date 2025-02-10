@@ -6,6 +6,7 @@ from collections import *
 from os.path import expanduser
 
 import pandas as pd
+import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
 
