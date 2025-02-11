@@ -21,11 +21,15 @@ SCREENNAME_LEN = 16
 DES_LEN = 200
 
 # model dump parameter
+# PRETRAINED_MODEL_ARCHIVE_MAP = {
+#     'full_model': ['https://nlp.stanford.edu/~zijwang/m3inference/full_model.mdl',
+#                    'https://blablablab.si.umich.edu/projects/m3/models/full_model.mdl'],
+#     'text_model': ['https://nlp.stanford.edu/~zijwang/m3inference/text_model.mdl',
+#                    'https://blablablab.si.umich.edu/projects/m3/models/text_model.mdl']
+# }
 PRETRAINED_MODEL_ARCHIVE_MAP = {
-    'full_model': ['https://nlp.stanford.edu/~zijwang/m3inference/full_model.mdl',
-                   'https://blablablab.si.umich.edu/projects/m3/models/full_model.mdl'],
-    'text_model': ['https://nlp.stanford.edu/~zijwang/m3inference/text_model.mdl',
-                   'https://blablablab.si.umich.edu/projects/m3/models/text_model.mdl']
+    'full_model': ['https://s3.amazonaws.com/voxradar-public-production/packages/m3inference/models/full_model.mdl'],
+    'text_model': ['https://s3.amazonaws.com/voxradar-public-production/packages/m3inference/models/text_model.mdl']
 }
 
 PRETRAINED_MODEL_MD5_MAP = {
